@@ -1,0 +1,68 @@
+/* Master styles */
+@font-face {
+  font-family: 'ufonest';
+  src: url("fonts/UFONEST.ttf") format('truetype');
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  overflow:
+}
+#particles-js
+{
+  height: 100%
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h1 {
+  padding: 10px;
+  color: #ffC059;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px
+  border-color: #ffC059;
+  font-family: 'ufonest';
+  font-size: 120px;
+}
+
+/* Navbar styles please kill me */
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  }
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin: 90px;
+  margin-top: -10px;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'ufonest'
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+  color: #fabb77;
+  text-decoration: none;
+  transition: color 0.5;
+}
+
+.nav-link-wrapper a:hover {
+  border-bottom: 1px solid #ff9e00;
+  color: #ff9e00;
+}
