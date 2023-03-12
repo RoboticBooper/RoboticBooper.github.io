@@ -27,7 +27,7 @@ var pJS = function(tag_id, params){
         }
       },
       color: {
-        value: '#fabb77'
+        value: '#FFBE51'
       },
       shape: {
         type: 'star',
