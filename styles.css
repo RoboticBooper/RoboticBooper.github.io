@@ -24,7 +24,7 @@ h1 {
   color: #ffC059;
   text-align: center;
   border-style: solid;
-  border-width: 2px
+  border-width: 2px;
   border-color: #ffC059;
   font-family: 'ufonest';
   font-size: 120px;
@@ -63,6 +63,6 @@ h1 {
 }
 
 .nav-link-wrapper a:hover {
-  border-bottom: 1px solid #ff9e00;
-  color: #ff9e00;
+  border-bottom: 1px solid #F47B00;
+  color: #F47B00;
 }
