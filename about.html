@@ -4,21 +4,42 @@
   <meta charset="UTF-8">
   <title>✿</title>
   <link rel="stylesheet" href="main.css">
-  </head>
+</head>
 
 <body style="background-color: #101111;">
-    <div id="main">
-      <h1>Welcome to the end of the world</h1>
-    </div>
+      <h1>[ Welcome to the end of the world ]</h1>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
+
+    <div class="container">
+       <div class="nav-wrapper">
+         <div class="left-side">
+           <div class="nav-link-wrapper">
+               <a href="index.html">Home ∆</a>
+             </div>
+
+             <div class="nav-link-wrapper">
+               <a href="about.html">About ❍</a>
+             </div>
+
+             <div class="nav-link-wrapper">
+               <a href="the strange.html">The strange ❐</a>
+             </div>
+
+           </div>
+         </div>
+       </div>
+
+    <div id="main">
+      <p>Greetings from the beyond. Are you a secret keeper? Story teller? Someone who is interested in tales from the world beyond?</p>
+    </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
     <script>
     VANTA.TRUNK({
       el: "#main",
       mouseControls: true,
       touchControls: true,
-      gyroControls: false,
+      gyroControls: true,
       minHeight: 200.00,
       minWidth: 200.00,
       scale: 1.00,
@@ -29,6 +50,5 @@
       })
     </script>
 
-    <p>Greetings from the beyond. Are you a secret teller? Story teller? Someone who is interested in realities and entities from a world beyond?</p>
-</body>
+  </body>
 </html>

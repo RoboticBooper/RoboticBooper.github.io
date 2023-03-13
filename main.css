@@ -2,31 +2,81 @@ html {
   scrollbar-width: none;
 }
 
-@font-face {
-  font-family: 'ufonest';
-  src: url("fonts/UFONEST.ttf") format('truetype');
-}
-
-body{
-    margin: 0;
+body::-webkit-scrollbar{
+    display: none;
+    -ms-overflow-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
 }
 
 #main{
+    display: flex;
+    align-items: left;
     padding: 0px;
     height: 85vh;
-    width: 100vw;
+    width: 50vw;
 }
 
 h1{
+    padding: 10px;
     color: #38614d;
     letter-spacing: .06rem;
     text-align: center;
     font-family: 'ufonest';
+    font-size: 82px;
+}
+
+/* Navbar styles please kill me */
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  }
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin: 90px;
+  margin-top: -10px;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'ufonest'
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+  color: #38614d;
+  text-decoration: none;
+  transition: color 0.5;
+}
+
+.nav-link-wrapper a:hover {
+  border-bottom: 1px solid #F47B00;
+  color: #F47B00;
 }
 
 p{
+  border-width: 2px;
+  border-style: solid;
+  border-color: #38614d;
+  padding: 1em;
   color: #38614d;
   letter-spacing: .09rem;
   text-align: center;
   font-family: 'ufonest';
+  justify-content: center;
+}
+
+@font-face {
+  font-family: 'ufonest';
+  src: url("fonts/UFONEST.ttf") format('truetype');
 }
