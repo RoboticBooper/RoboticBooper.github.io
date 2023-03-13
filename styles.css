@@ -1,14 +1,14 @@
 /* Master styles */
-@font-face {
-  font-family: 'ufonest';
-  src: url("fonts/UFONEST.ttf") format('truetype');
+html {
+  scrollbar-width: none;
 }
 
-body {
+body::-webkit-scrollbar{
+  display: none;
+  -ms-overflow-style: none;
   margin: 0px;
   padding: 0px;
   height: 100vh;
-  overflow:
 }
 #particles-js
 {
@@ -65,4 +65,9 @@ h1 {
 .nav-link-wrapper a:hover {
   border-bottom: 1px solid #F47B00;
   color: #F47B00;
+}
+
+@font-face {
+  font-family: 'ufonest';
+  src: url("fonts/UFONEST.ttf") format('truetype');
 }
